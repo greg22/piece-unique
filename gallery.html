@@ -9,6 +9,9 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- ICON PACK LOCAL -->
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.css">
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -17,6 +20,59 @@
     <![endif]-->
   </head>
   <body>
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-default" role="navigation" style="margin: 0;">
+      <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <a href="https://www.facebook.com/pages/Pi%C3%A8ce-Unique/655715191202128" target="_blank" class="btn btn-primary navbar-btn pull-right"><span class="fa fa-facebook fa-lg" style="padding-right: 6px;"></span>Facebook</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" style="margin-left: 12px; margin-right: 0;">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html" style="font-size: 1.5em;">Pièce Unique</a>        
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Accueil</a></li>
+            <li class="active"><a href="gallery.html">Gallerie photos</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <br>
+
+    <!-- CAROUSEL -->
+    <div class="container">
+      <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#myCarousel" data-slide-to="1"></li>
+          <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+            <img src="temp_pu.jpg" alt="First slide">
+          </div>
+          <div class="item">
+            <img src="pictures/WP_20140824_001.jpg" alt="Second slide">
+          </div>
+          <div class="item">
+            <img src="temp_pu.jpg" alt="Third slide">
+          </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+      </div>
+    </div>
+
+
     <div class="container">
       <h1>En construction</h1>
       <a href="index.html">Retour à l'accueil</a>
