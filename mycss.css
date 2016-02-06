@@ -5,14 +5,14 @@
         width: 100%;
 }*/
 
-#cover-image {
+/*#cover-image {
 	padding: 0;
 	background: url("temp_pu.jpg");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
 	height: 60%;
-}
+}*/
 
 .carousel-inner > .item > img { 
 	margin: 0 auto;
